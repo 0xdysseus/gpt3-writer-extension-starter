@@ -1,0 +1,49 @@
+.header {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+#key_input {
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#save_key_button,#change_key_button {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  width: 150px;
+}
+
+#save_key_button:hover,#change_key_button:hover {
+  background-color: #0062cc;
+}
+
+#key_entered {
+  display: none;
+}
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  width: 325px;
+}
+#container{
+  height: 500px;
+}
